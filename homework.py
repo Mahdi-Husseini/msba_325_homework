@@ -4,9 +4,9 @@ import plotly.express as px
 from PIL import Image
 
 
-data = pd.read_csv("C:\\Users\\user\\Desktop\\hello\\demographics.csv")
+data = pd.read_csv("demographics.csv")
 
-logo = Image.open("C:\\Users\\user\\Desktop\\hello\\aub_white.jpg")
+logo = Image.open("aub_white.jpg")
 
 st.image(logo)
 
