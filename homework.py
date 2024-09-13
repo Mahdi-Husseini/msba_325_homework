@@ -14,6 +14,13 @@ st.image(logo)
 st.title('Case Study: Distribution of the Lebanese Demographics')
 
 st.header('Mahdi Husseini - MSBA 325')
+
+st.warning(
+    "This app is optimized for desktop viewing due to the wide nature of the visualizations, which may not fit well on smaller mobile screens. "
+    "For the best experience, we recommend using a desktop, or if you're on a mobile device, enabling the 'Desktop site' option in your browser. "
+    "Don't forget to check the sidebar to adjust the district selection as needed."
+)
+
 st.write('***')
 
 st.subheader('Data')
